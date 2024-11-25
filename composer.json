@@ -1,0 +1,35 @@
+{
+    "name": "ceytek-labs/ftp-downloader",
+    "description": "A lightweight library for downloading files over FTP using PHP.",
+    "keywords": [
+        "FTP",
+        "Downloader",
+        "File Transfer",
+        "PHP",
+        "Library",
+        "FTP Client",
+        "Ceytek Labs"
+    ],
+    "homepage": "https://github.com/ceytek-labs/ftp-downloader",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ceyhun Celik",
+            "email": "ceyhunbcelik@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CeytekLabs\\FtpDownloader\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "support": {
+        "issues": "https://github.com/ceytek-labs/ftp-downloader/issues",
+        "source": "https://github.com/ceytek-labs/ftp-downloader"
+    }
+}
